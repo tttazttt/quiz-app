@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+td {
+  border: 1px solid rgb(237, 237, 237);
+  padding: 2px;
+}
+
+.correct {
+  background-color: rgba(253, 168, 168, 0.925);
+  color: rgb(251, 45, 45);
+}
+
+.wrong {
+  background-color: rgba(153, 255, 153, 0.546);
+  color: rgb(123, 179, 123);
+}
