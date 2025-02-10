@@ -187,9 +187,9 @@ function App() {
             </div>
 
             {next ? (
-              <div className="feedback-sec flex-2 my-15 text-4xl font-semibold">
+              <div className="feedback-sec flex-2 my-5 text-4xl font-semibold">
                 <h2
-                  className={`text-5xl py-10 ${
+                  className={`text-5xl py-5 ${
                     feedback == "正解!!" ? "text-[#ff5432]" : "text-[#5888ff]"
                   }`}
                 >
